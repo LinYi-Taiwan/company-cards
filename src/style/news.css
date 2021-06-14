@@ -1,0 +1,33 @@
+.carousel-container {
+    border-radius: 7px;
+    margin: 10px 16px;
+}
+
+.carousel-img {
+    width: auto;
+    height: 200px;
+    border-radius: 7px;
+    background-color: white;
+    object-fit: contain;
+}
+
+.carousel .control-dots {
+    bottom: 30px !important;
+    margin: 0 !important;
+}
+
+.carousel .control-dots .dot {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+}

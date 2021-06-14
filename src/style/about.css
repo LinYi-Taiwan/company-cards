@@ -1,0 +1,10 @@
+.about-container {
+    margin: 20px 16px;
+}
+
+.description > p {
+    font-size: 12px;
+    font-weight: 100;
+    text-align: left;
+    color: #ffffff;
+}

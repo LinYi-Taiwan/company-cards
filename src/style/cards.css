@@ -1,0 +1,28 @@
+.flip-card-container {
+    width: 375px;
+    height: 90vh;
+    /* border: 1px solid #ccc; */
+    perspective: 1000px;
+}
+
+@media only screen and (max-width: 600px) {
+    .flip-card-container {
+        width: 90vw;
+    }
+}
+
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-container:hover .flip-card {
+    transform: rotateY(180deg);
+}
+
+/* .flip-card-container .flip-card {
+    transform: rotateY(180deg);
+} */

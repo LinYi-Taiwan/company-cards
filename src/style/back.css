@@ -21,7 +21,10 @@
     color: #fff;
     transform: rotateY(180deg);
     /* overflow: hidden; */
-    overflow: scroll;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
     padding-top: 16px;
 }
 

@@ -4,9 +4,9 @@ import Cards from './Cards';
 function App() {
     return (
         <div className="App">
-            <Route path="/" exact={true} component={Cards}></Route>
+            {/* <Route path="/" exact={true} component={Cards}></Route> */}
 
-            {/* <Cards></Cards> */}
+            <Cards></Cards>
         </div>
     );
 }

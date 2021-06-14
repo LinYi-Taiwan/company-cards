@@ -6,11 +6,12 @@ import { HashRouter, Switch } from 'react-router-dom';
 
 ReactDOM.render(
     <React.StrictMode>
-        <HashRouter>
+        <App></App>
+        {/* <HashRouter>
             <Switch>
                 <App />
             </Switch>
-        </HashRouter>
+        </HashRouter> */}
     </React.StrictMode>,
     document.getElementById('root')
 );

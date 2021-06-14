@@ -1,6 +1,6 @@
 .flip-card-container {
     width: 375px;
-    height: 90vh;
+    height: 75vh;
     /* border: 1px solid #ccc; */
     perspective: 1000px;
 }
